@@ -33,14 +33,14 @@
  - Since our device is not registered by Jolla yet, use [Storeman](#storeman) to get apps.
  
  ## Installation
-1. Download [LOS 14.1](https://download.lineageos.org/santoni)
+1. Download [LOS 15.1](https://download.lineageos.org/santoni)
 2. Download [SailfishOS](https://github.com/sailfish-santoni/projectmanagement/releases)
 3. **Use [official TWRP image](https://dl.twrp.me/santoni). Other recoveries such as OrangeFox has reported to have OOM enabled, which will kill the unpacking process on low memory.**
 4. Reboot to TWRP
 5. Make sure /data and /cache are in **ext4** format. **(anything that is not ext4 will not be supported.)**
 6. Wipe Dalvik, Data, Cache, System, Vendor
 7. Copy both files to your phone
-8. Flash LOS 14.1
+8. Flash LOS 15.1
 9. Flash SailfishOS
 10. Reboot!
  
